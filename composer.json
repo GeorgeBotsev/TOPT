@@ -1,0 +1,14 @@
+{
+    "name": "botsev/topt",
+    "description": "A minimal implementation of TOTP for WordPress",
+    "require": {
+        "chillerlan/php-qrcode": "^4.3",
+        "spomky-labs/otphp": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "topt\\": "src/"
+        }
+    },
+    "license": "GPL-3.0-or-later"
+}
